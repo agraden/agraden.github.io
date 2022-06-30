@@ -50,6 +50,31 @@ div {
     position: relative;
 }
 
+.chapter6 {
+    height: 100vh;
+    background: white;
+    background-size: cover;
+    position: relative;
+}
+
+.chapter7 {
+    height: 100vh;
+    background: rgb(199, 199, 199);
+    background-size: cover;
+    position: relative;
+}
+
+.column-control {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 2px solid auto;
+}
+
+.float-right {
+    float: right;
+}
+
 .hero-text {
     text-align: center;
     top: 50%;
@@ -88,3 +113,19 @@ div {
     background-color: gold;
     margin-top: 20px;
 }
+
+.navbar-custom {
+    font-weight: bold;
+}
+
+.image-zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+  }
+  
+  .image-zoom:hover {
+    transform: scale(2.5);
+  }
